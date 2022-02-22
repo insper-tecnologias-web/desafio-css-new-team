@@ -33,7 +33,7 @@ body {
 }
 
 .form-card {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0.5rem;
   border: 1px solid #EEE;
@@ -46,7 +46,9 @@ body {
   width: 100%;
   margin: 0;
   border: none;
-  font-size: 1.25rem;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .form-card textarea {
@@ -56,6 +58,7 @@ body {
   border: none;
   resize: none;
   font-family: inherit;
+  font-size: 0.9rem;
 }
 
 .form-card .btn {
@@ -72,7 +75,7 @@ body {
 }
 
 .card {
-  flex: 0 0 14rem;
+  flex: 0 0 16rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
   background-color: var(--card-color);
@@ -83,13 +86,13 @@ body {
   flex-direction: column;
 }
 .card-color-1 {
-  --card-color: #FAE890;
+  --card-color: #EAD3A7;
 }
 .card-color-2 {
-  --card-color: #EF89BA;
+  --card-color: #9DE0F5;
 }
 .card-color-3 {
-  --card-color: #9DE0F5;
+  --card-color: #EF89BA;
 }
 .card-color-4 {
   --card-color: #FAE890;
@@ -133,11 +136,13 @@ body {
 
 .card-title {
   padding-bottom: 1rem;
+  font-size: 1.25rem;
 }
 .card-content {
   flex: 1 0 auto;
   min-height: 3.5rem;
   color: #4C4C4C;
+  font-size: 1.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,10 +157,10 @@ body {
   overflow: hidden;
   border-width: 0;
   outline: none;
-  font-weight; bold;
+  font-weight: bold;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  background-color: #f7d736;
+  background-color: #F7D735;
   transition: background-color 0.3s;
 }
 .btn > * {
